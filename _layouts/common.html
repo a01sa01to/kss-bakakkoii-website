@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <title>{% if page.title != "TOP" %}{{ page.title }} - {% endif %}古河中等ばかっこいいシリーズ</title>
+  {% include meta.html %}
+  {% include css.html %}
+  {% include script.html %}
+</head>
+<body id="top">
+  <header>{% include header.html %}</header>
+  <main>{{ content }}</main>
+  <footer>{% include footer.html %}</footer>
+  <a href="#top" id="gototop"><span class="material-icons">keyboard_arrow_up</span></a>
+</body>
+</html>

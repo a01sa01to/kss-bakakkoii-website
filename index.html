@@ -1,213 +1,62 @@
-﻿<!DOCTYPE html>
-<html lang="ja">
-	<head>
-		<title>トップページ</title>
-		<meta charset="utf-8"><!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-137953397-2"></script>
-		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-		  gtag('config', 'UA-137953397-2');
-		</script>
-
-		<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1,maximum-scale=1">
-		<meta name="description" content="古河中等第１回文化祭から始まった、古河中等ばかっこいいシリーズのホームページです。Official site of KSS Bakakkoii Series.">
-		<meta name="keywords" content="古河中等,ばかっこいい,文化祭,kss_bakakkoii">
-		<meta name="twitter:card" content="summary">
-        <meta name="twitter:domain" content="https://kss-bakakkoii.a01sa01to.com/">
-		<meta name="twitter:site" content="@kss_bakakkoii">
-		<meta name="twitter:creator" content="@a01sa01to">
-		<meta property="og:url" content="https://kss-bakakkoii.a01sa01to.com/index.html">
-		<meta property="og:title" content="古河中等ばかっこいいシリーズ - KSS Bakakkoii Series">
-		<meta property="og:description" content="古河中等ばかっこいいシリーズの公式サイト。Official site of KSS Bakakkoii Series.">
-		<meta property="og:image" content="https://kss-bakakkoii.a01sa01to.com/img/favicon.jpg">
-		<meta property="og:type" content="website">
-		<script type="application/ld+json">
-		{
-			"@context": "http://schema.org",
-			"@type": "BreadcrumbList",
-			"itemListElement":[
-			{
-				"@type": "ListItem",
-				"position": 1,
-				"item": {
-					"@id": "https://kss-bakakkoii.a01sa01to.com/",
-					"name": "KSS Bakakkoii Series",
-					"image": "https://kss-bakakkoii.a01sa01to.com/img/favicon.jpg"
-				}
-			},{
-				"@type": "ListItem",
-				"position": 2,
-				"item":{
-					"@id": "https://kss-bakakkoii.a01sa01to.com/index.html",
-					"name": "TopPage"
-				}
-			}]
-		}
-		</script>
-		<script type="application/ld+json">
-		{
-			"@context": "http://schema.org/",
-			"@type": "Organization",
-			"name": "KSS Bakakkoii Series",
-			"logo": "https://kss-bakakkoii.a01sa01to.com/img/favicon.jpg",
-			"url": "https://kss-bakakkoii.a01sa01to.com/",
-			"sameAs": [
-				"https://twitter.com/kss_bakakkoii",
-				"https://www.youtube.com/channel/UC_s6Env3fmLi1hIbYrrBk0Q"
-			]
-		}
-		</script>
-		<style>
-			body{
-				text-align: center;
-			}
-			img{
-				z-index: -100;
-				margin: 0px;
-				width: 100%;
-				height: auto;
-				position: absolute;
-			}
-			#bkacl_name{
-				font-size: 48px;
-				margin-top: 30px;
-				color: #fff;
-				text-shadow: 5px 5px 0 #aaa;
-			}
-			#theme{
-				font-size: 24px;
-				margin-top: 200px;
-			}
-			#define{
-				font-size: 18px;
-				margin-top: 50px;
-				padding: 10px 30px;
-			}
-			#enough{
-				font-size: 24px;
-				margin-top: 150px;
-				padding: 20px;
-
-			}
-			.ripple{
-				width: 300px;
-				font-size: 18px;
-				font-weight: 600;
-				padding: 10px;
-				margin: 10px auto;
-				color: #fff;
-				text-shadow: 2px 2px 0 #000;
-				text-decoration: none;
-				border-radius: 24px;
-				display: block;
-			}
-			.ripple#bkacl{
-				background: #014715;
-			}
-			.ripple#yt{
-				background: #f00;
-			}
-			.ripple#twitter{
-				background: #1da1f2;
-			}
-			.splitter{
-				background: #fff;
-				width: 700px;
-				margin: auto;
-			}
-			@media screen and (max-width: 700px){
-				.splitter{
-					width: 100%;
-				}
-			}
-		</style>
-	</head>
-	<body>
-		<header></header>
-		<main>
-
-			<img src="img/2018.jpg" alt="KSS Bakakkoii 4Graders Thumbnail" style="top: 100px; left: 0;" class="fadein">
-			<h1 id="bkacl_name" class="ja fadein">古河中等ばかっこいいシリーズ</h1>
-			<h1 id="bkacl_name" class="en fadein">KSS Bakakkoii Series</h1>
-			<div class="splitter">
-				<h2 class="ja fadein" id="theme" style="padding: 10px;">古河中等。</h2>
-				<h2 class="en fadein" id="theme" style="padding: 10px;">Koga Secondary School Students,</h2>
-				<div id="define" class="ja fadein">
-					<p>
-					古河中等、茨城県内の3校目の中高一貫校。<br>
-					あの古河中等生が作成したのがこの、"ばかっこいいシリーズ"。<br></p>
-					<a id="bkacl" class="ja ripple" target="_blank" href="http://www.koga-cs.ibk.ed.jp/">古河中等公式サイトへ</a>
-					<p>（※茨城は「いばらき」であり、「いばらぎ」ではありません。）</p>
-				</div>
-				<div id="define" class="en fadein">
-					<p>
-					Koga Secondary School, which is third unified lower and upper secondary school in Ibaraki Prefecture.<br>
-					The KSS Students make this, "KSS Bakakkoii Series."<br>
-					</p>
-					<a id="bkacl" class="en ripple" target="_blank" href="http://www.koga-cs.ibk.ed.jp/">Visit KSS Official Site</a>
-					<p>("<b>KSS</b>" means <span>K</span>oga <span>S</span>eccondary <span>S</span>chool, it's our school.)</p>
-				</div>
-			</div>
-			<h2 class="ja fadein" id="theme">でもばかっこいい。</h2>
-			<h2 class="en fadein" id="theme">but Bakakkoii.	</h2>
-			<div class="splitter">
-				<div id="define" class="ja fadein">
-					<span style="font-family: 'Muli',sans-serif;">Create the Future.</span>
-					<p>
-						校訓はこれだけど、それに沿いつつ、ばかっこいい。<br>
-						まあでも、ばかっこいいかを決めるのは、あなた次第。
-					</p>
-				</div>
-				<p id="define" class="en fadein">
-					<span>Create the Future.</span><br>
-					It's Bakakkoii, along this School Motto.<br>
-					However, whether it's Bakakkoii or not depends on you.
-				</p>
-			</div>
-			<h2 class="ja fadein" id="theme">概歴</h2>
-			<h2 class="en fadein" id="theme">History</h2>
-			<div class="splitter">
-				<p id="define" class="ja fadein">
-					文化祭に毎回登場し、有志発表にて動画を公開しています。<br>
-					初回発表は2016年9月9日で、そこから毎回、現在合計3回の文化祭、1回のみ学年レクリエーションに登場しました。
-				</p>
-				<a class="ja ripple fadein" id="bkacl" href="history.html">歴史を見る</a>
-				<p id="define" class="en fadein">
-					We appear at every cultural festival of KSS and publish a video at Volunteer Performance.<br>
-					The first Performance was on Sep 9 2016.<br>
-					We have appeared cultural festival 3 times and recreation once.
-				</p>
-				<a class="en ripple fadein" id="bkacl" href="history.html">See the History</a>
-			</div>
-			<div class="fadein" style="margin-top: 100px;">
-				<a id="bkacl" class="ja ripple" href="video/">すべての動画を見る</a>
-				<a id="yt" class="ja ripple" target="_blank" href="https://www.youtube.com/channel/UC_s6Env3fmLi1hIbYrrBk0Q">YouTubeチャンネルへ</a></a>
-				<a id="twitter" class="ja ripple" target="_blank" href="https://twitter.com/kss_bakakkoii">Twitterへ</a></a>
-				<a id="bkacl" class="en ripple" href="video/">Watch our all videos</a>
-				<a id="yt" class="en ripple" target="_blank" href="https://www.youtube.com/channel/UC_s6Env3fmLi1hIbYrrBk0Q">Go to our YouTube Channel</a></a>
-				<a id="twitter" class="en ripple" target="_blank" href="https://twitter.com/kss_bakakkoii">Go to our Twitter</a></a>
-			</div>
-			<h2 class="ja fadein">お知らせ</h2>
-			<h2 class="en fadein">Notice</h2>
-			<p class="ja fadein">
-				2019年度に発表せずに、2020年度に発表しようということになりました。<br>
-				それがおそらく最終回となります。
-			</p>
-			<p class="en fadein">
-				We decided not to present in 2019, but we'll present in 2020. <br>
-				That video will be the last one...
-			</p>
-			<blockquote class="twitter-tweet fadein" style="margin: auto;" data-lang="ja"><p lang="ja" dir="ltr">我々の話し合いの結果，<br>時間がないのと，クオリティを上げたいとのことで，今年と来年で1作品<br>つまり<br>来年度の文化祭には出演しませんが，再来年度に出演するでしょう。<br>ということになりました。<br><br>恐らくそれが最終回となります…<br><br>最後までお付き合いお願いします…</p>&mdash; 古河中等ばかっこいいシリーズ (@kss_bakakkoii) <a href="https://twitter.com/kss_bakakkoii/status/1095589600448282627?ref_src=twsrc%5Etfw">2019年2月13日</a></blockquote>
-			<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-		</main>
-		<footer></footer>
-		<script src="js/load.js"></script>
-		<script>
-			enTitle("TopPage");
-		</script>
-	</body>
-</html>
+layout: common
+title: TOP
+description: 古河中等ばかっこいいシリーズの公式サイトです。リニューアルオープンしました。
+---
+<div class="container fullh">
+  <img src="/img/kss6_crop.jpg" class="abs">
+  <h1 class="title">古河中等<br>ばかっこいいシリーズ</h1>
+  <span></span>
+</div>
+<div class="container center">
+  <div>
+    <h2>About us</h2>
+    <p>古河中等の有志発表で唯一の動画枠！<br>初回発表は2016年9月9日の文化祭で、合計3回の文化祭、2回の学年リクリエーションに登場しました。</p>
+  </div>
+</div>
+<div class="container center">
+  <div>
+    <h2>History</h2>
+    <ul>
+      <li>2016.09.09<br>「ばかっこいい2の3」公開！<br><a href="https://youtu.be/Npzlu5krHOw" target="_blank">https://youtu.be/Npzlu5krHOw</a></li>
+      <li>2016.12.21<br>「ばかっこいい2の3 PPXP Ver.」公開！<br><a href="https://youtu.be/m2KPovdKiY0" target="_blank">https://youtu.be/m2KPovdKiY0</a></li>
+      <li>2017.06.09<br>「ばかっこいい3の2」公開！<br><a href="https://youtu.be/kWSw5oA9cgM" target="_blank">https://youtu.be/kWSw5oA9cgM</a></li>
+      <li>2018.02.26<br>公式サイトオープン！</li>
+      <li>2018.06.09<br>「ばかっこいい4年次共（いつメン）」公開！<br><a href="https://youtu.be/Np8GlSuOujI" target="_blank">https://youtu.be/Np8GlSuOujI</a></li>
+      <li>2020.06.16<br>「ばかっこいい6年次共 THE LAST」公開予定！</li>
+    </ul>
+  </div>
+</div>
+<div class="container center">
+  <div>
+    <h2>Videos</h2>
+    <iframe class="yt" src="https://www.youtube.com/embed/videoseries?list=PLRFBKthKQGCMvmUO61ipj6QzIw6t-I2nD" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p style="text-align: right;"><br><a href="/video/">動画一覧 &Gt;</a></p>
+  </div>
+</div>
+<div class="container center">
+  <div>
+    <h2>Notice</h2>
+    <blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/%E6%96%B0%E3%81%97%E3%81%84%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB%E7%94%BB%E5%83%8F?src=hash&amp;ref_src=twsrc%5Etfw">#新しいプロフィール画像</a><br>ついに最終回「ばかっこいい6年次共 THE LAST」も今週中に公開されます...！！<br><br>これまでのシリーズはこちらから！↓<a href="https://t.co/dJhEQXHTRh">https://t.co/dJhEQXHTRh</a><br><br>今回コロナの影響で撮影が十分にできていないため、総集編+αといった形になってしまいましたが、ご期待ください！ <a href="https://t.co/ZZQy17yrzA">pic.twitter.com/ZZQy17yrzA</a></p>&mdash; 古河中等ばかっこいいシリーズ (@kss_bakakkoii) <a href="https://twitter.com/kss_bakakkoii/status/1282625546673774592?ref_src=twsrc%5Etfw">July 13, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </div>
+</div>
+<div class="container">
+  <h2>Social Accounts</h2>
+  <div class="w">
+    <a class="sns youtube" href="https://www.youtube.com/channel/UC_s6Env3fmLi1hIbYrrBk0Q" target="_blank">
+      <i class="fab fa-youtube"></i>
+      <span>KSS Bakakkoii Series</span>
+    </a>
+    <a class="sns twitter" href="https://twitter.com/kss_bakakkoii" target="_blank">
+      <i class="fab fa-twitter"></i>
+      <span>@kss_bakakkoii</span>
+    </a>
+    <a class="sns line" href="https://line.me/R/ti/p/%40mcl7414o" target="_blank">
+      <i class="fab fa-line"></i>
+      <span>@mcl7414o</span>
+    </a>
+  </div>
+</div>

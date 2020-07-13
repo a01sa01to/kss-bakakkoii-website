@@ -1,7 +1,5 @@
-.htaccess
-hostingstart.html
-web.config
-qa/
-admin/
-.vs/
-dev/
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
