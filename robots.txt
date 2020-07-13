@@ -1,0 +1,22 @@
+User-agent: *
+Disallow: /admin/
+Allow: /css/
+Allow: /dev/
+Disallow: /dev/index.php
+Disallow: /dev/index.html
+Disallow: /error/
+Allow: /haf/
+Allow: /img/
+Allow: /js/
+Allow: /news/
+Disallow: /test/
+Allow: /updates/
+Allow: /video/
+Disallow: /video/player.html
+Allow: /favicon.ico
+Allow: /history.html
+Disallow: /hostingstart.html
+Allow: /index.html
+Disallow: /preparation.html
+
+Sitemap: https://kss-bakakkoii.a01sa01to.com/sitemap.xml

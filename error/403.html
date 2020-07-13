@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <title>403 Forbidden</title>
+        <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1,maximum-scale=1">
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        
+        <script src="../js/title.js"></script>
+        <script src="../js/jquery-3-2-1.js"></script>
+        <style>
+            @font-face{
+                font-family: "ERROR_FONT";
+                src: url("error_url.ttf");
+            }
+            h2{
+                font-size: 30px;
+            }
+            h3{
+                font-size: 22px;
+            }
+            #url{
+                width: 100%;
+                font-family: "ERROR_FONT";
+            }
+            input#act{
+                width: 100px;                
+                height: 50px;
+                background-color: #fff;
+                color: #000;
+            }
+            @media screen and (max-width:480px){
+            input#act{
+                width: 50%;
+            }
+            }
+        </style>
+    </head>
+    <body>
+        <header></header>
+        <div align="center">
+            <h2>403 Forbidden</h2>
+            <p id="url"></p>
+            <h3 class="ja">アクセスする権限がありません。</p>
+            <h3 class="en" style="display:none">You have no permissions to access.</h3>
+            <p class="ja">原因として以下が挙げられます。</p>
+            <p class="en" style="display:none">The following are examples as a cause.</p>
+            <p class="ja">
+                ・アクセス制限をしているページにアクセスした<br>
+                ・index.htmlがないディレクトリにアクセスした<br>
+                ・404エラーと間違えられて表示されている</p>
+            <p class="en" style="display:none">
+                ・Entered a page we restrict<br>
+                ・Accessed a directory that doesn't have index.html<br>
+                ・Displayed mistakenly as 404 error
+            </p>
+            <p class="ja">トップページに戻ってみてください</p>
+            <p class="en" style="display:none">Please go back the top page.</p>
+            <input id="act" type="button" value="戻る" onclick="history.back()" class="ja">
+            <input id="act" type="button" value="Back" onclick="history.back()" class="en" style="display:none">
+        </div>
+        <footer></footer>
+        <script src="../js/lang.js"></script>
+        <script src="../js/load.js"></script>
+        <script>
+            var url=window.location.pathname;
+            document.getElementById("url").innerHTML=url;
+        </script>
+    </body>
+</html>

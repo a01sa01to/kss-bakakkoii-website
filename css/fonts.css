@@ -1,0 +1,17 @@
+@font-face{
+    font-family: 'logoFont'; /*名前指定*/
+    src: url('/css/logo.otf'); /*場所指定*/
+}
+@import url('https://fonts.googleapis.com/css?family=Muli|Open+Sans|Quicksand');
+@import url('https://fonts.googleapis.com/earlyaccess/notosansjapanese.css');
+.en{
+    font-family: 'Muli', sans-serif;
+}
+.ja{
+    font-family: "Noto Sans Japanese";
+}
+
+@font-face{
+    font-family: 'URL Font';
+    src: url('/error/error_url.ttf');
+}

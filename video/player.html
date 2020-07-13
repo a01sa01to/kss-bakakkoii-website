@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1,maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>動画プレイヤー</title>
+    <meta name="robots" content="noindex"><!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137953397-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-137953397-2');
+    </script>
+    
+    <style>
+        body{
+            text-align: center;
+        }
+        iframe{
+            width: 700px;
+        }
+        @media screen and (max-width:700px){
+            iframe{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <script>
+        let tmp = document.location.search.substring(1).split('&');
+        let query = new Array;
+        for(let i=0; i<tmp.length;i++){
+            let temp = tmp[i].split("=");
+            query[temp[0]] = temp[1];
+        }
+        let source = "https://www.youtube.com/";
+        if(query["v"] === "videoseries"){
+            source += "videoseries?list="
+            source += query["list"];
+        }
+        else{
+            source += "watch?v="
+            source += query["v"];
+        }
+        location.href = source;
+    </script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+		xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0"
+		xmlns:xhtml="http://www.w3.org/1999/xhtml">
+		
+	<url>
+		<loc>https://kss-bakakkoii.azurewebsites.net/news/index.html</loc>
+		<priority>0.4</priority>
+		<lastmod>2018-10-06</lastmod>
+		<changefreq>never</changefreq>
+		<mobile:mobile />
+		<xhtml:link
+			rel="alternate"
+			hreflang="ja"
+			href="https://kss-bakakkoii.azurewebsites.net/news/index.html" />
+		<xhtml:link
+			rel="alternate"
+			hreflang="x-default"
+			href="https://kss-bakakkoii.azurewebsites.net/news/index.html?lang=en" />
+	</url>
+	<url>
+		<loc>https://kss-bakakkoii.azurewebsites.net/news/2018/index.html</loc>
+		<priority>0.4</priority>
+		<lastmod>2018-10-06</lastmod>
+		<changefreq>never</changefreq>
+		<mobile:mobile />
+		<xhtml:link
+			rel="alternate"
+			hreflang="ja"
+			href="https://kss-bakakkoii.azurewebsites.net/news/2018/index.html" />
+		<xhtml:link
+			rel="alternate"
+			hreflang="x-default"
+			href="https://kss-bakakkoii.azurewebsites.net/news/2018/index.html?lang=en" />
+	</url>
+	<url>
+		<loc>https://kss-bakakkoii.azurewebsites.net/news/2018/10/index.html</loc>
+		<priority>0.4</priority>
+		<lastmod>2018-10-06</lastmod>
+		<changefreq>never</changefreq>
+		<mobile:mobile />
+		<xhtml:link
+			rel="alternate"
+			hreflang="ja"
+			href="https://kss-bakakkoii.azurewebsites.net/news/2018/10/index.html" />
+		<xhtml:link
+			rel="alternate"
+			hreflang="x-default"
+			href="https://kss-bakakkoii.azurewebsites.net/news/2018/10/index.html?lang=en" />
+	</url>
+	<url>
+		<loc>https://kss-bakakkoii.azurewebsites.net/news/2018/10/homeScreen.html</loc>
+		<priority>0.4</priority>
+		<lastmod>2018-10-06</lastmod>
+		<changefreq>never</changefreq>
+		<mobile:mobile />
+		<xhtml:link
+			rel="alternate"
+			hreflang="ja"
+			href="https://kss-bakakkoii.azurewebsites.net/news/2018/10/homeScreen.html" />
+		<xhtml:link
+			rel="alternate"
+			hreflang="x-default"
+			href="https://kss-bakakkoii.azurewebsites.net/news/2018/10/homeScreen.html?lang=en" />
+	</url>
+	
+</urlset>

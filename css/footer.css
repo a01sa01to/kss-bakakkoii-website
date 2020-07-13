@@ -1,0 +1,41 @@
+footer{
+    background: #014715;
+    color: #fff;
+    width: 100%;
+    padding: 4px 0px;
+}
+footer #copyright{
+    font-size: 16px;
+    text-align: center;
+}
+footer #langNotice{
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: #eee;
+    border: #555 2px solid;
+    width: 100vw;
+    color: #555;
+    clear: both;
+    font-size: 16px;
+    padding: 8px;
+    text-align: center;
+}
+footer #langNotice a{
+    color: #555;
+}
+footer #langNotice i.fas.fa-times-circle{
+    float: right;
+    cursor: pointer;
+}
+footer #langNotice i.fas.fa-info-circle{
+    font-size: 50px;
+}
+footer #langNotice table{
+    text-align: center;
+    margin: auto;
+}
+footer #langNotice table td{
+    padding: 10px;
+}

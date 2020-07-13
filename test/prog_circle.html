@@ -1,0 +1,43 @@
+<div class="loader"></div><p class="loading_message">Loading...</p>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+<style>
+    .loader{
+        border: 16px solid #f3f3f3;
+        border-top: 16px solid #3498db;
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+        animation: spin 2s linear infinite;
+        position: absolute;
+    }
+    .loading_message{
+        font-family: 'Quicksand', sans-serif;
+        position: absolute;
+        font-size: 24px;
+        font-weight: 800;
+        margin: 0;
+    }
+    @keyframes spin{
+        0%{
+            transform: rotate(0deg);
+        }
+        100%{
+            transform: rotate(360deg);
+        }
+    }
+</style>
+<script src="../js/jquery-3-2-1.js"></script>
+<script>
+    
+    var msg = $('.loading_message');
+    var loading = $('.loader');
+    var loader_top = (window.innerHeight - loading.innerHeight())/2;
+    var loader_left = (window.innerWidth - loading.innerWidth())/2;
+    var msg_top = loader_top + (loading.outerHeight() - msg.outerHeight())/2;
+    var msg_left = loader_left + (loading.outerWidth() - msg.outerWidth())/2;
+    loading.css('top',loader_top + 'px');
+    loading.css('left',loader_left + 'px');
+    msg.css('top',msg_top + 'px');
+    msg.css('left',msg_left + 'px');
+    
+</script>
