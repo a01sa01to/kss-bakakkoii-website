@@ -56,11 +56,21 @@ img.abs {
 }
 
 .fullh.center {
+  display: block;
+}
+
+.fullh.center div {
   position: absolute;
   top: 50%;
   left: 50%;
   z-index: 2;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  max-width: 80vw;
+  padding: 20px;
   background-color: #fff8;
+  border-radius: 10px;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
@@ -70,6 +80,10 @@ h1.title {
   top: 50%;
   left: 50%;
   z-index: 2;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  max-width: 80vw;
   padding: 20px;
   background-color: #fff8;
   border-radius: 10px;
@@ -77,7 +91,7 @@ h1.title {
           transform: translate(-50%, -50%);
 }
 
-h1 + span {
+.container span.next {
   position: absolute;
   bottom: 15%;
   left: calc(50% - 15px);
