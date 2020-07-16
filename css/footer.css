@@ -1,6 +1,8 @@
 footer {
   width: 100vw;
-  height: 48px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   padding: 6px;
   color: #fff;
   background-color: #014715;
@@ -10,5 +12,30 @@ footer {
 
 footer p#copyright {
   text-align: center;
+}
+
+footer div#links {
+  margin-bottom: 24px;
+}
+
+footer div#links ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style: none;
+}
+
+footer div#links ul li {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+}
+
+footer div#links ul li a {
+  color: #fff;
+  text-decoration: none;
 }
 /*# sourceMappingURL=footer.css.map */

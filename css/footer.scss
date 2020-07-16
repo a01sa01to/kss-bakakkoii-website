@@ -1,6 +1,6 @@
 footer{
   width: 100vw;
-  height: 48px;
+  height: fit-content;
   padding: 6px;
   color: #fff;
   background-color: #014715;
@@ -8,5 +8,26 @@ footer{
 
   p#copyright{
     text-align: center;
+  }
+
+  div#links{
+    margin-bottom: 24px;
+
+    ul{
+      display: flex;
+      justify-content: space-around;
+      list-style: none;
+
+      li{
+        // display: inline-block;
+        width: fit-content;
+        margin: auto;
+
+        a{
+          color: #fff;
+          text-decoration: none;
+        }
+      }
+    }
   }
 }
